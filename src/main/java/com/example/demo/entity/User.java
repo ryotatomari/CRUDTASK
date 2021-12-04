@@ -19,7 +19,7 @@ import lombok.Data;
 @Table(name = "user")
 public class User {
 
-	/**
+    /**
      * ID
      */
     @Id
@@ -32,26 +32,31 @@ public class User {
      */
     @Column(name = "name")
     private String name;
+
     /**
      * 住所
      */
     @Column(name = "address")
     private String address;
+
     /**
      * 電話番号
      */
     @Column(name = "phone")
     private String phone;
+
     /**
      * 更新日時
      */
     @Column(name = "update_date")
     private Date updateDate;
+
     /**
      * 登録日時
      */
     @Column(name = "create_date")
     private Date createDate;
+
     /**
      * 削除日時
      */
